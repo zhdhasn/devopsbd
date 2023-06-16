@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - image: iamjahid/apache:23
-        name: httpd
+        name: websrv
         ports:
         - containerPort: 80
         resources: {}
