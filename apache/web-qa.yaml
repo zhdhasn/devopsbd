@@ -19,7 +19,7 @@ spec:
         app: apache
     spec:
       containers:
-      - image: httpd
+      - image: iamjahid/apache:23
         name: httpd
         ports:
         - containerPort: 80
