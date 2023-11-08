@@ -18,7 +18,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: iamjahid/web:13
+      - image: iamjahid/online-shop:37
         name: webserver
         ports:
         - containerPort: 80
